@@ -256,7 +256,7 @@ def main():
 
         st.subheader("PREDICTION ARE :")
         st.write(df_test_predicted)
-        
+        st.write(df_test_predicted.columns)
 
         # Perform further analysis or model training if needed
 
